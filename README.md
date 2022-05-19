@@ -5,3 +5,9 @@ Two arguments required: hextoarray \<arg\> \<hexcode\>
   
                   -a      Insert '0x' before every char and add '{' and '}' before and after array.
                   -b      Only add commas between chars.
+
+Example:
+
+hextoarray.exe -a ABCDEF
+
+Output: { 0xAB, 0xCD, 0xEF }
